@@ -151,7 +151,7 @@
 
         var cocos2d = document.createElement('script');
         cocos2d.async = true;
-        cocos2d.src = 'cocos2d-js-min.js';
+        cocos2d.src =  'cocos2d-js-min.js';
 
         var engineLoaded = function () {
             document.body.removeChild(cocos2d);
